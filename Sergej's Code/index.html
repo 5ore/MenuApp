@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<title>Kafić</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/w3.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="shortcut icon" href="icon/kafa.ico" type="image/x-icon"/>
+<body>
+
+<!-- Navigacija -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-black" href="javascript:void(0);" onclick="myFunction()" title="Prikaži navigaciju"><i class="fa fa-bars"></i></a>
+      <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white w3-animate-opacity">POČETNA</a>
+      <a href="#opis" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white w3-animate-opacity">O KAFIĆU</a>
+      <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white w3-animate-opacity">MENI</a>
+      <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white w3-animate-opacity">LOKACIJA</a>
+  </div>
+</div>
+
+<!-- Navigacija na malim ekranima -->
+  <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-large" style="margin-top:67px;">
+      <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-white" onclick="myNewFunction()">POČETNA</a>
+      <a href="#opis" class="w3-bar-item w3-button w3-padding-large w3-hover-white" onclick="myNewFunction()">O KAFIĆU</a>
+      <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-white" onclick="myNewFunction()">MENI</a>
+      <a href="#w" class="w3-bar-item w3-button w3-padding-large w3-hover-white" onclick="myNewFunction()">LOKACIJA</a>
+  </div>
+</div>
+
+<!-- Heder -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home" onclick="myNewFunction()">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag w3-animate-bottom">Radno vreme 08:00 - 00:00</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white w3-animate-bottom" style="font-size:90px">Kafić</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large">
+    <span class="w3-tag w3-animate-bottom">Merime Njegomir 15a</span>
+  </div>
+</header>
+
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- O kafiću -->
+<div class="w3-container" id="opis">
+  <div class="w3-content" style="max-width:700px">
+    <h3 class="w3-center w3-padding-64"><span class="w3-tag w3-wide w3-animate-bottom">O KAFIĆU</span></h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dapibus consectetur leo et ornare. Nulla tempor fringilla auctor. Quisque posuere purus eget metus porttitor rhoncus a at sem. Fusce nec dui molestie enim facilisis aliquet. Aenean commodo gravida ligula, sit amet feugiat metus lobortis et. Aliquam erat volutpat. Quisque in eleifend ipsum. Donec placerat feugiat tristique.</p>
+    <p>Pellentesque placerat risus metus, ut iaculis massa ullamcorper volutpat. Integer elit diam, finibus a bibendum eget, ultricies ut ipsum. Sed eget suscipit sapien.</p>
+    <img src="img/kafic.png" style="width:100%;max-width:1000px" class="w3-margin-top">
+    <p><strong>Radno vreme</strong> svakog dana od 08:00 do 00:00</p>
+    <p><strong>Adresa:</strong> Merime Njegomir 15a</p>
+  </div>
+</div>
+
+<div class="w3-row-padding w3-center w3-margin-top">
+<div class="w3-third w3-animate-bottom" style="margin-bottom:20px;">
+  <div class="w3-card w3-container">
+  <h3>Kafa</h3><br>
+    <img src="" alt="kafa" style="width:100%;">
+  <h5>Narucite kafu</h5>
+  <button class="dugme" style="float:left">-</button>
+  <button class="dugme" style="float:right">+</button>
+  </div>
+</div>
+
+<div class="w3-third w3-animate-bottom" style="margin-bottom:20px;">
+  <div class="w3-card w3-container">
+  <h3>Kafa</h3><br>
+  <img src="" alt="kafa" style="width:100%;">
+  <h5>Narucite kafu</h5>
+  <button class="dugme" style="float:left">-</button>
+  <button class="dugme" style="float:right">+</button>
+  </div>
+</div>
+
+<div class="w3-third w3-animate-bottom" style="margin-bottom:20px;">
+  <div class="w3-card w3-container">
+  <h3>Kafa</h3><br>
+  <img src="" alt="kafa" style="width:100%;">
+  <h5>Narucite kafu</h5>
+  <button class="dugme" style="float:left">-</button>
+  <button class="dugme" style="float:right">+</button>
+  </div>
+</div>
+</div>
+
+</div>
+
+<!-- Futer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p>&copy;2018 <a href="#">Kafić</a></p>
+</footer>
+
+<script src="js/script.js"></script> 
+</body>
+</html>
